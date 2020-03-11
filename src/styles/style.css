@@ -7,29 +7,47 @@
 }
 
 .card-content{
-    padding-left: 12px;
+    padding-left: 8px;
 }
 
 .category-wrapper{
     flex: 1;
-    padding:0px 12px;
+    padding:0px 12px 0 0;
 }
 
 .secondary-text{
     color:#79797a;
     font-size: 16px;
+    margin: 4px 0;
+}
+
+.trailer-a{
+    color: white;
+    text-decoration: none;
 }
 
 .genre-text{
     font-size: 12px;
 }
 
+.genre-text ul li{
+    display: inline;
+    padding-right: 2px;
+}
+
+.genre-text ul li:first-child{
+    list-style: none;
+    background-color: yellow;
+}
+
 .movie-title-text{
-    font-size: 24px;
+    font-size: 20px;
+    /* margin: 0; */
 }
 
 .rating-text{
-    font-size: 28px;
+    font-size: 24px;
+    margin: 0;
 }
 
 .category-title-text{
