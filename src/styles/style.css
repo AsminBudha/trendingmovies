@@ -15,6 +15,10 @@
     padding:0px 12px 0 0;
 }
 
+.category-wrapper ul{
+    list-style: none;
+}
+
 .secondary-text{
     color:#79797a;
     font-size: 16px;
@@ -37,12 +41,15 @@
 
 .genre-text ul li:first-child{
     list-style: none;
-    background-color: yellow;
 }
 
 .movie-title-text{
     font-size: 20px;
-    /* margin: 0; */
+}
+
+.movie-title-text a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .rating-text{
@@ -53,4 +60,10 @@
 .category-title-text{
     text-align: center;
     color: white;
+}
+
+.error-text{
+    color: white;
+    justify-content: center;
+    font-size: 24px;
 }
