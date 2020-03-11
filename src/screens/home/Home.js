@@ -123,15 +123,25 @@ class Home extends React.Component {
     }
 
     return (
-      <div className="container">
-        <CategoryWrapper
-          title={categories[0].title}
-          dataList={this.state[categories[0].key].results || []}
-        />
-        <CategoryWrapper
-          title={categories[1].title}
-          dataList={this.state[categories[1].key].results || []}
-        />
+      <div>
+        <a src="#" className="container logo">
+          <img
+            src="https://www.themoviedb.org/assets/1/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg"
+            alt="Trending Movies Logo"
+            width="80"
+          />
+        </a>
+
+        <div className="container">
+          <CategoryWrapper
+            title={categories[0].title}
+            dataList={this.state[categories[0].key].results || []}
+          />
+          <CategoryWrapper
+            title={categories[1].title}
+            dataList={this.state[categories[1].key].results || []}
+          />
+        </div>
       </div>
     );
   }
