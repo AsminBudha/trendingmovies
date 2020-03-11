@@ -65,7 +65,6 @@ class MovieCard extends React.Component {
               }, "")}
             </span>
           </h2>
-          <p className="secondary-text">Playing On: Netflix</p>
           <a
             target="_"
             className="secondary-text trailer-a"
