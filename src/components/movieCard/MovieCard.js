@@ -20,7 +20,8 @@ class MovieCard extends React.Component {
     return (
       <div className="card-wrapper">
         <a
-          target="_"
+          target="_blank"
+          rel="noopener noreferrer"
           href={
             external_ids && external_ids.imdb_id
               ? IMDB_URL.replace(":imdbId", external_ids.imdb_id)
@@ -42,7 +43,8 @@ class MovieCard extends React.Component {
           </h2>
           <h2 className="movie-title-text">
             <a
-              target="_"
+              target="_blank"
+              rel="noopener noreferrer"
               href={
                 external_ids && external_ids.imdb_id
                   ? IMDB_URL.replace(":imdbId", external_ids.imdb_id)
@@ -66,7 +68,8 @@ class MovieCard extends React.Component {
             </span>
           </h2>
           <a
-            target="_"
+            target="_blank"
+            rel="noopener noreferrer"
             className="secondary-text trailer-a"
             href={youtubeSearchQueryGenerator(movieTitle)}
             title={movieTitle}
