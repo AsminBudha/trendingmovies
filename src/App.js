@@ -1,7 +1,8 @@
 import React from "react";
+import Home from "./screens/home/Home.js";
 
 function App() {
-  return <div className="App">Trending Movies</div>;
+  return <Home />;
 }
 
 export default App;

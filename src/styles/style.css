@@ -1,0 +1,38 @@
+.card-wrapper{
+    background-color: #363840;
+    color: white;
+    display: flex;
+    margin-bottom:12px;
+    padding: 12px;
+}
+
+.card-content{
+    padding-left: 12px;
+}
+
+.category-wrapper{
+    flex: 1;
+    padding:0px 12px;
+}
+
+.secondary-text{
+    color:#79797a;
+    font-size: 16px;
+}
+
+.genre-text{
+    font-size: 12px;
+}
+
+.movie-title-text{
+    font-size: 24px;
+}
+
+.rating-text{
+    font-size: 28px;
+}
+
+.category-title-text{
+    text-align: center;
+    color: white;
+}
